@@ -9,7 +9,7 @@ type PaginationProps = {
 
 export function Pagination({ page, totalPages, onChange }: PaginationProps) {
   return (
-    <div className="pagination flex gap-3 mb-10">
+    <div className="pagination flex flex-wrap justify-center gap-3 mb-10">
       <Button onClick={() => onChange(page - 1)} circle disabled={page <= 1}>
         {"<"}
       </Button>

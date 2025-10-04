@@ -1,4 +1,5 @@
 import { Button } from "@/app/components/Button";
+import SearchInput from "@/app/components/SearchInput";
 import { Box } from "lucide-react";
 import { useRouter } from "next/navigation";
 
@@ -13,7 +14,8 @@ export function EmptyState() {
       <h1 className="text-3xl font-semibold text-orange-500">
         Nenhuma receita encontrada.
       </h1>
-      <Button onClick={() => router.push("/")}>Buscar outra</Button>
+      <SearchInput />
+      <Button onClick={() => router.push("/")}>Voltar</Button>
     </div>
   );
 }

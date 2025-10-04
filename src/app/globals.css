@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-orange-50;
+  @apply bg-orange-50 overflow-hidden;
+}
+
+.link:hover .link-line {
+  @apply w-full;
+}
+
+.animate-dish {
+  animation: infinite slow-spin linear 10s;
+}
+
+@keyframes slow-spin {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+::selection {
+  @apply bg-orange-500/50;
 }

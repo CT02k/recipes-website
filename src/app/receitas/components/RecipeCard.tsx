@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/app/components/Button";
-import { ReceitaItem } from "../../../types/receitas";
+import { ReceitaItem } from "../../types/receitas";
 import { useRouter } from "next/navigation";
 
 export function RecipeCard({ recipe }: { recipe: ReceitaItem }) {

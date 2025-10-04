@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-orange-50 overflow-hidden;
+  @apply bg-orange-50;
 }
 
 .link:hover .link-line {

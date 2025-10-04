@@ -1,6 +1,5 @@
 "use client";
 import { ChefHat } from "lucide-react";
-import Link from "next/link";
 import { Button } from "./Button";
 import { useRouter } from "next/navigation";
 
